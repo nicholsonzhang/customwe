@@ -1,0 +1,47 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/cart/cart",
+    "pages/discover/discover",
+    "pages/my/my",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "品质生活精选平台",
+    "navigationBarTextStyle":"black",
+    "backgroundColor":"red"
+  },
+  "tabBar":{
+    "list":[{
+      "pagePath":"pages/index/index",
+      "text":"首页",
+      "iconPath":"images/icon_home.png",
+      "selectedIconPath":"images/icon_home_selected.png"
+    },{
+      "pagePath":"pages/discover/discover",
+      "text":"发现",
+      "iconPath": "images/icon_discover.png",
+      "selectedIconPath": "images/icon_discover_selected.png"
+    },{
+      "pagePath":"pages/cart/cart",
+      "text":"购物车",
+      "iconPath": "images/icon_cart.png",
+      "selectedIconPath": "images/icon_cart_selected.png"
+    },
+    {
+      "pagePath": "pages/my/my",
+      "text": "我的",
+      "iconPath": "images/icon_mine.png",
+      "selectedIconPath": "images/icon_mine_selected.png"
+    }
+
+    ],
+    "position":"bottom",
+    "color":"#666",
+    "selectedColor":"#E67F11",
+    "backgroundColor":"#ffffff",
+    "borderStyle": "black"
+  }
+}

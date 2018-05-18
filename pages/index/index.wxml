@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view>
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoPlay}}" interval="{{interval}}" duration="{{duration}}">
+<block wx:for="{{imgUrls}}" class="slide-image">
+<swiper-item>
+<image src="{{item}}" width="355" height="150"/>
+</swiper-item>
+</block>
+</swiper>
+
+<icon type='success'/>
+<icon type='success_no_circle'/>
+<icon type='info'/>
+<icon type='warn'/>
+<icon type='waiting'/>
+<icon type='cancel'/>
+<icon type='download'/>
+<icon type='search'/>
+<icon type='clear'/>
+</view>
