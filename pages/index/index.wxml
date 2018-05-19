@@ -8,13 +8,4 @@
 </block>
 </swiper>
 
-<icon type='success'/>
-<icon type='success_no_circle'/>
-<icon type='info'/>
-<icon type='warn'/>
-<icon type='waiting'/>
-<icon type='cancel'/>
-<icon type='download'/>
-<icon type='search'/>
-<icon type='clear'/>
 </view>
