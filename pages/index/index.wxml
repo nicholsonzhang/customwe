@@ -1,4 +1,5 @@
 <!--index.wxml-->
+<import src="../../template/list.wxml"/>
 <view>
 <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoPlay}}" interval="{{interval}}" duration="{{duration}}">
 <block wx:for="{{imgUrls}}" class="slide-image">
@@ -7,5 +8,16 @@
 </swiper-item>
 </block>
 </swiper>
+<view class='grid_container'>
+<view class='grid_item'wx:for="{{funcs}}">
+<image class='grid_img' src='{{item.imageUrl}}'></image>
+<text class='grid_name'>{{item.name}}</text>
 
 </view>
+
+</view>
+
+</view>
+
+
+

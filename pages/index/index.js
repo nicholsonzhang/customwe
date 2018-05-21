@@ -16,7 +16,25 @@ Page({
       'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'
     ],
     interval:4000,
-    duration:1000
+    duration:1000,
+    funcs:[
+      {
+      name:"第一",
+      imageUrl:"https://static.phi-go.com/data/upload/mall/store/goods/19/19_05789568927259782.jpg"
+      },
+      {
+        name: "第二",
+        imageUrl: "https://static.phi-go.com/data/upload/mall/store/goods/19/19_05789568927259782.jpg"
+      },
+      {
+        name: "第三",
+        imageUrl: "https://static.phi-go.com/data/upload/mall/store/goods/19/19_05789568927259782.jpg"
+      },
+      {
+        name: "第四",
+        imageUrl: "https://static.phi-go.com/data/upload/mall/store/goods/19/19_05789568927259782.jpg"
+      }
+    ]
   },
   //事件处理函数
   bindViewTap: function() {
